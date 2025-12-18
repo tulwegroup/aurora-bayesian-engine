@@ -1,10 +1,13 @@
-export default function AuroraPage() {
+"use client"
+
+import React from 'react'
+
+export default function AuroraDashboardClient() {
   return (
     <div style={{
       minHeight: '100vh',
       backgroundColor: '#f9fafb',
-      padding: '20px',
-      fontFamily: 'system-ui, -apple-system, sans-serif'
+      padding: '20px'
     }}>
       <div style={{
         maxWidth: '1200px',
