@@ -1,0 +1,17 @@
+{
+  "name": "Aurora Bayesian Certainty Engine",
+  "short_name": "Aurora Engine",
+  "description": "Physics-first geological analysis system with Bayesian probability calculations and geological veto validation",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#111827",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}
