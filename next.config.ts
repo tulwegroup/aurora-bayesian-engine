@@ -10,13 +10,13 @@ const nextConfig: NextConfig = {
   // Ensure proper asset prefix for preview
   assetPrefix: process.env.NODE_ENV === 'production' ? undefined : '',
   
+  // Use Node.js runtime instead of edge to avoid build issues
+  output: 'standalone',
+  
   typescript: {
     ignoreBuildErrors: false, // Be stricter with TypeScript
   },
   reactStrictMode: false,
-  eslint: {
-    ignoreDuringBuilds: false, // Don't ignore ESLint during builds
-  },
   
   // Add headers for proper CORS in preview
   async headers() {
